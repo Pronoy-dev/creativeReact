@@ -1,2 +1,44 @@
 /* ====================Banner css=================== */
+
+.bannerPart {
+  padding: 182px 0px;
+  background-color: var(--blue_color);
+}
+
+.bannerWrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.bannerLeft {
+  max-width: 542px;
+  display: flex;
+  flex-direction: column;
+  row-gap: 25px;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+
+.bannerLeft_title {
+  font-size: 65px;
+  font-weight: 700;
+  color: var(--white_color);
+  font-family: var(--inter);
+  line-height: 80px;
+}
+
+.bannerLeft_summary {
+  font-size: 16px;
+  font-weight: 400;
+  font-family: var(--inter);
+  color: var(--white_color);
+  line-height: 27px;
+}
+
+.btn--modifier {
+  color: var(--blue_color);
+  background-color: var(--white_color);
+}
+
 /* ====================Banner css=================== */
