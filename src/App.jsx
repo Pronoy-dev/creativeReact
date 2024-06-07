@@ -6,6 +6,7 @@ import Portfolio from "./Component/Portfolio/Portfolio";
 import Member from "./Component/Member/Member";
 import Customer from "./Component/Customer/Customer";
 import News from "./Component/News/News";
+import Footer from "./Component/Footer/Footer";
 const Pronoy = () => {
   return (
     <div>
@@ -16,6 +17,7 @@ const Pronoy = () => {
       <Member />
       <Customer />
       <News />
+      <Footer />
     </div>
   );
 };
