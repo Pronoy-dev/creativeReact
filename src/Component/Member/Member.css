@@ -26,8 +26,8 @@
   height: 30%;
   left: 0;
   bottom: -133px;
-  background-color: var(--blue_color);
-  opacity: 50%;
+  background-color: rgba(89, 86, 232, 0.5);
+
   display: flex;
   justify-content: center;
   align-items: center;
@@ -37,6 +37,8 @@
   -moz-transition: all ease-in-out 0.3s;
   -ms-transition: all ease-in-out 0.3s;
   -o-transition: all ease-in-out 0.3s;
+  border-top-right-radius: 30%;
+  border-top-left-radius: 30%;
 }
 
 .overlay_title {
