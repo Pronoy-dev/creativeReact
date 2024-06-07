@@ -1,13 +1,5 @@
 /* =================================== Member css =========================== */
 
-:root {
-  --blue_color: #5956e8;
-  --primary_font_color: #181818;
-  --white_color: #ffffff;
-  --secondary_font_color: #5d5d5d;
-  --inter: "Inter", sans-serif;
-}
-
 .memberPartDiv {
   padding: 0px 0px 142px;
 }

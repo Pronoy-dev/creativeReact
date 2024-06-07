@@ -1,0 +1,83 @@
+/* =================================== Customer css =========================== */
+
+.customerTop {
+  max-width: 603px;
+}
+
+.customerTop_title {
+  font-size: 40px;
+  font-weight: 700;
+  color: var(--primary_font_color);
+  font-family: var(--inter);
+}
+
+.customerTop_summary {
+  font-size: 16px;
+  max-width: 542px;
+  font-weight: 400;
+  color: var(--primary_font_color);
+  opacity: 70%;
+  font-family: var(--inter);
+  line-height: 27px;
+  margin-top: 20px;
+}
+
+.customerBottom {
+  margin-top: 50px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.customerBottom_item {
+  padding: 48px 48px;
+  display: flex;
+  flex-direction: column;
+  width: 370px;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  background-color: whitesmoke;
+}
+
+.star {
+  margin-top: 30px;
+}
+
+.starSize {
+  font-size: larger;
+  color: #fbbf25;
+}
+
+.customerBottomBox_text {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 27px;
+  font-family: var(--inter);
+  color: var(--primary_font_color);
+  opacity: 70%;
+  margin-top: 10px;
+}
+
+.customerBottomBox_name {
+  font-size: 20px;
+  font-weight: 600;
+  font-family: var(--inter);
+  color: var(--primary_font_color);
+  margin-top: 15px;
+}
+
+.customerBottomBox_work {
+  font-size: 16px;
+  font-weight: 400;
+  font-family: var(--inter);
+  color: var(--secondary_font_color);
+}
+
+.customerBottom_pic {
+  display: flex;
+  justify-content: end;
+}
+
+/* =================================== Customer css =========================== */

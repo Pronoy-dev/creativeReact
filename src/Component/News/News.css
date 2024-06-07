@@ -1,0 +1,99 @@
+/* =================================== News css =========================== */
+:root {
+  --blue_color: #5956e8;
+  --primary_font_color: #181818;
+  --white_color: #ffffff;
+  --secondary_font_color: #5d5d5d;
+  --inter: "Inter", sans-serif;
+}
+
+.newsPart {
+  padding: 142px 0px 0px;
+}
+
+.newsPart_bottom {
+  margin-top: 50px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.newsPart_work {
+  display: flex;
+}
+
+.newsPart_box {
+  padding: 17px 19px 46px;
+  max-width: 370px;
+  border: 1px solid #e3e3e3;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+
+.adminDiv {
+  display: flex;
+  margin-top: 19px;
+}
+
+.firstDiv {
+  display: flex;
+  margin-right: 30px;
+  column-gap: 10px;
+}
+
+.firstDiv_icon {
+  color: var(--secondary_font_color);
+}
+
+.firstDiv_text {
+  color: var(--secondary_font_color);
+  font-family: var(--inter);
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.secondDiv {
+  display: flex;
+  column-gap: 10px;
+}
+
+.secondDiv_icon {
+  color: var(--secondary_font_color);
+}
+
+.secondDiv_text {
+  color: var(--secondary_font_color);
+  font-family: var(--inter);
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.newsPartBottom_title {
+  max-width: 271px;
+  font-size: 20px;
+  font-weight: 600;
+  color: var(--primary_font_color);
+  font-family: var(--inter);
+  margin-top: 10px;
+}
+.newsPartBottom_des {
+  max-width: 300px;
+  font-size: 16px;
+
+  font-weight: 400;
+  color: var(--secondary_font_color);
+  font-family: var(--inter);
+  margin-top: 15px;
+}
+
+.newsPartBottom_link {
+  font-size: 16px;
+  font-weight: 600;
+  color: var(--blue_color);
+  font-family: var(--inter);
+  margin-top: 10px;
+}
+
+/* =================================== News css =========================== */
